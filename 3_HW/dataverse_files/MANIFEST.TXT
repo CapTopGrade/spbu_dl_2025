@@ -1,0 +1,7 @@
+bibliography.tsv (text/tsv) 28929 bytes.
+tests/test_integrity.py (text/x-python) 12967 bytes.
+texts.zip (application/zip) 672302 bytes.
+tests/tests_readme.md (text/markdown) 3587 bytes.
+readme.md (text/markdown) 30828 bytes.
+metadata.tsv (text/tsv) 1248118 bytes.
+readme.pdf (application/pdf) 100515 bytes.

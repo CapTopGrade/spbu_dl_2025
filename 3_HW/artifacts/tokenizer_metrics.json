@@ -1,0 +1,77 @@
+{
+  "final_vocab_size": 12000,
+  "holdout_metrics": {
+    "total_tokens": 48351,
+    "total_bytes": 247321,
+    "total_chars": 140581,
+    "compression_tokens_per_byte": 0.1954989669296178,
+    "compression_tokens_per_char": 0.34393694738264774,
+    "mean_tokens_per_word": 1.5208259325044404,
+    "mean_tokens_per_word_top10pct": 1.0657175102005383,
+    "word_types": 10133,
+    "word_tokens": 22520
+  },
+  "domain_metrics": {
+    "poetry_holdout": {
+      "total_tokens": 48351,
+      "total_bytes": 247321,
+      "total_chars": 140581,
+      "compression_tokens_per_byte": 0.1954989669296178,
+      "compression_tokens_per_char": 0.34393694738264774,
+      "mean_tokens_per_word": 1.5208259325044404,
+      "mean_tokens_per_word_top10pct": 1.0657175102005383,
+      "word_types": 10133,
+      "word_tokens": 22520
+    },
+    "metadata": {
+      "total_tokens": 416763,
+      "total_bytes": 1248118,
+      "total_chars": 775579,
+      "compression_tokens_per_byte": 0.3339131396230164,
+      "compression_tokens_per_char": 0.5373572518080041,
+      "mean_tokens_per_word": 2.173952820202631,
+      "mean_tokens_per_word_top10pct": 1.9645769399386235,
+      "word_types": 13513,
+      "word_tokens": 132260
+    },
+    "bibliography": {
+      "total_tokens": 9763,
+      "total_bytes": 28929,
+      "total_chars": 17858,
+      "compression_tokens_per_byte": 0.33748142002834525,
+      "compression_tokens_per_char": 0.5467017583156009,
+      "mean_tokens_per_word": 2.1450506370467166,
+      "mean_tokens_per_word_top10pct": 1.5581527936145951,
+      "word_types": 835,
+      "word_tokens": 3061
+    }
+  },
+  "vocab_curve": [
+    {
+      "vocab_size": 1000,
+      "tokens_per_byte": 0.2968369042661157
+    },
+    {
+      "vocab_size": 2000,
+      "tokens_per_byte": 0.2555262189624011
+    },
+    {
+      "vocab_size": 4000,
+      "tokens_per_byte": 0.22761108033689012
+    },
+    {
+      "vocab_size": 8000,
+      "tokens_per_byte": 0.20540512127963254
+    },
+    {
+      "vocab_size": 12000,
+      "tokens_per_byte": 0.1954989669296178
+    }
+  ],
+  "unused_tokens": {
+    "unused_count": 1219,
+    "unused_fraction": 0.10158333333333333
+  },
+  "train_files_count": 730,
+  "holdout_files_count": 183
+}
